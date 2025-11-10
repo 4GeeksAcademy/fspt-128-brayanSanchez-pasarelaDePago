@@ -75,25 +75,28 @@
                             </div>
                             <div class="col-lg-6 sm-12 mt-4 ">
                                 <span>We accept</span>
-                                <div class="container rounded-3 bg-secondary py-1 mt-4 text-white ">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="mastercard"
-                                            value="MasterCard">
+                                <div class=" rounded-3 bg-secondary py-2 mt-4 text-white w-50  d-flex justify-content-center">
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio" id="mastercard"
+                                            name="inlineRadioOptions" value="MasterCard">
                                         <label class="form-check-label" for="mastercard"><i
-                                                class="fa-brands fa-cc-mastercard"></i></label>
+                                                class="fa-brands fa-cc-mastercard "></i></label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="visa" value="Visa">
+                                        <input class="form-check-input" type="radio" id="visa" name="inlineRadioOptions"
+                                            value="Visa">
                                         <label class="form-check-label" for="visa"><i
                                                 class="fa-brands fa-cc-visa"></i></label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="cripto" value="Cripto">
+                                        <input class="form-check-input" type="radio" id="cripto"
+                                            name="inlineRadioOptions" value="Cripto">
                                         <label class="form-check-label" for="cripto"><i
                                                 class="fa-solid fa-bitcoin-sign"></i></label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="transfer" value="Transfer">
+                                        <input class="form-check-input" type="radio" id="transfer"
+                                            name="inlineRadioOptions" value="Transfer">
                                         <label class="form-check-label" for="transfer"><i
                                                 class="fa-solid fa-building-columns"></i></label>
                                     </div>
@@ -114,7 +117,17 @@
                     </form>
                 </div>
                 <div class="card-footer">
+                    <div class="d-flex flex-row-reverse">
+                        <div class="mx-2">
+                            <button type="button" class="btn btn-primary">Send</button>
 
+                        </div>
+                        <div>
+
+                            <button type="button" class="btn btn-secondary">Cancel</button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
